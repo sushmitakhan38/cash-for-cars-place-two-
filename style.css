@@ -1,4 +1,4 @@
-{
+*{
     
     padding:0;
     margin: 0;
@@ -6,19 +6,22 @@
     list-style: none;
     box-sizing: border-box;
 }
+
 body{
     
     font-family: montserrat;
 }
 nav{
     
-    background-color: aliceblue;
-    height: 60px;
-    width: 100%;
+    background-color: bisque;
+   
+    
+     height: 62px;
+    width: 100;
 }
 
 label.logo{
-    color: black;
+    color: palevioletred;
     font-size: 25px;
     line-height: 80px;
     padding: 0 100px;
@@ -28,13 +31,79 @@ label.logo{
 
 
 
-section{
+.wrapper {
     
-   background-image: url("image/img01.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-   height: calc(100vh - 80px);
+    font-family: sans-serif;
+    width:93%;
+    margin: 0 auto;
+    left:60%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+img{
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+
+.content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 28px;
     
-  
     
 }
+
+
+.overlay{
+   position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 80%;
+    opacity: 0;
+    transition: .10s ease;
+    background: rgba(0,0,0,0.2);
+    
+    
+    
+}
+
+.wrapper:hover .overlay{
+    opacity: 1;
+}
+
+.button{
+    
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.btn{
+    
+    border:1px solid #fff;
+    padding:10px 30px;
+    color:#fff;
+    text-decoration: none;
+    transition-duration: 0.6s ease;
+       
+}
+
+.btn:hover{
+    background-color: darkgrey;
+    
+}
+
+
+
