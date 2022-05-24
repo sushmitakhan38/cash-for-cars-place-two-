@@ -1,0 +1,40 @@
+{
+    
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: montserrat;
+}
+nav{
+    
+    background-color: aliceblue;
+    height: 60px;
+    width: 100%;
+}
+
+label.logo{
+    color: black;
+    font-size: 25px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    
+}
+
+
+
+section{
+    
+   background-image: url("image/img01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: calc(100vh - 80px);
+    
+  
+    
+}
