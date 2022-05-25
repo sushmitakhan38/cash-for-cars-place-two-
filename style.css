@@ -11,14 +11,20 @@ body{
     
     font-family: montserrat;
 }
+
 nav{
     
-    background-color: bisque;
-   
+    background-color:azure;
+    height: 60px;
+    width: 74.5%;
+    position: relative;
     
-     height: 62px;
-    width: 100;
+   left: 13.5%;
+        
 }
+
+
+
 
 label.logo{
     color: palevioletred;
