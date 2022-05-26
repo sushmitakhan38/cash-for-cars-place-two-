@@ -11,20 +11,18 @@ body{
     
     font-family: montserrat;
 }
-
 nav{
     
     background-color:azure;
     height: 60px;
-    width: 74.5%;
-    position: relative;
+    width: 70%;
     
-   left: 13.5%;
-        
+     position: relative;
+    
+   left: 15%;
+    
+  
 }
-
-
-
 
 label.logo{
     color: palevioletred;
@@ -37,55 +35,26 @@ label.logo{
 
 
 
-.wrapper {
+section{
     
-    font-family: sans-serif;
-    width:93%;
-    margin: 0 auto;
-    left:60%;
-    top:50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-}
-img{
-    display: block;
-    width: 80%;
-    height: auto;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/img01.jpg);
+    height: (100vh - 80%);
+    width: 70%;
+
+    background-size: cover;
+   position:relative;
+    left: 15%;
 }
 
-
-.content{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color:#fff;
-    text-transform: uppercase;
-    font-size: 28px;
+h2{
+    
+   font-size: 36px;
+    font-weight: 600;
     
     
 }
 
 
-.overlay{
-   position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-    width: 80%;
-    opacity: 0;
-    transition: .10s ease;
-    background: rgba(0,0,0,0.2);
-    
-    
-    
-}
-
-.wrapper:hover .overlay{
-    opacity: 1;
-}
 
 .button{
     
@@ -110,6 +79,77 @@ img{
     background-color: darkgrey;
     
 }
+.main{
+    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main2{
+    
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+}
+
+
+
+
+.mid{
+
+    height:200px;
+background-color: azure;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+    position: absolute;
+    left: 15%;
+    
+  
+}
+
+.design{
+    
+    
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+h1{
+    
+   font-size: 20px;
+    font-weight: 600;
+    
+    
+}
+
+
+p{
+   font-size: 10px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
