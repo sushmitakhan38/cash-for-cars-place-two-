@@ -1,155 +1,33 @@
 *{
     
-    padding:0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
+  margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
 
-body{
-    
-    font-family: montserrat;
 }
-nav{
+.container{
+    width: 1140px;
+    margin: 0 auto;
     
-    background-color:azure;
-    height: 60px;
-    width: 70%;
     
-     position: relative;
-    
-   left: 15%;
-    
-  
 }
-
-label.logo{
-    color: palevioletred;
-    font-size: 25px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+header{
+   background-color: azure;
+    width: 100%;
+    padding: 30px 0px;
+    float: left;
+    
+    
     
 }
 
-
-
-section{
+.menu{
     
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/img01.jpg);
-    height: (100vh - 80%);
-    width: 70%;
-
+    
+    background-image: url(image/banner.png);
     background-size: cover;
-   position:relative;
-    left: 15%;
-}
-
-h2{
-    
-   font-size: 36px;
-    font-weight: 600;
-    
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
     
 }
-
-
-
-.button{
-    
-    position: absolute;
-    top:70%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    
-}
-
-.btn{
-    
-    border:1px solid #fff;
-    padding:10px 30px;
-    color:#fff;
-    text-decoration: none;
-    transition-duration: 0.6s ease;
-       
-}
-
-.btn:hover{
-    background-color: darkgrey;
-    
-}
-.main{
-    
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.main2{
-    
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);  
-}
-
-
-
-
-.mid{
-
-    height:200px;
-background-color: azure;
-    margin:auto;
-    text-align: center;
-    padding-top: 100px;
-    position: absolute;
-    left: 15%;
-    
-  
-}
-
-.design{
-    
-    
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-
-h1{
-    
-   font-size: 20px;
-    font-weight: 600;
-    
-    
-}
-
-
-p{
-   font-size: 10px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-    
-    
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
