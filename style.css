@@ -12,9 +12,9 @@
     
 }
 header{
-   background-color: azure;
+   background-color: #E7EDF3;
     width: 100%;
-    padding: 30px 0px;
+    padding: 20px 0px;
     float: left;
     
     
@@ -29,5 +29,84 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     float: left;
+    height: 100vh;
+    
+    
+}
+
+.design{
+  text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    
+    
+    
+}
+.design h1{
+    
+margin-top: 150px;
+    font-size: 50px;
+    color: aliceblue;
+    border-bottom: 2px solid #3396FF;
+    font-family: sans-serif;
+    
+    
+}
+
+.design p{
+   margin-top: 25px;
+    color: aliceblue;
+    font-size: 10px;
+    
+}
+
+.btn{
+    
+   margin-top: 70px;
+    background: transparent;
+    border: 2px solid #3396FF;
+     margin-bottom: 170px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 20px;
+   
+    
+}
+
+.mid{
+    
+   background-color: #E7EDF3;
+    width: 100%;
+    padding-top: 80px;
+    float: left;
+    margin: 0 auto;
+    
+    
+}
+.paragraph{
+    
+    
+  text-align: center;
+    margin: 0 auto;
+    width: 500px;
+ 
+    
+    
+}
+.paragraph h1{
+    
+    font-size: 20px;
+    font-weight: 600;
+    
+    
+}
+
+.paragraph p{
+    
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
     
 }
