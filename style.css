@@ -154,9 +154,33 @@ padding: 15px;
     padding: 10px;
     font-size: 12px;
 }
-
-. fa-clock{
+.fa-mobile-screen-button{
+    
+    
+    color:steelblue;
     font-size: 50px;
+    padding-left: 80px;
+   
+   
 }
+.fa-paper-plane{
+    
+    
+    color:steelblue;
+    font-size: 50px;
+    padding-left: 80px;
+   
+}
+
+.fa-bullhorn{
+    
+    
+    color:steelblue;
+    font-size: 50px;
+    padding-left: 80px;
+   
+}
+
+
 
 
