@@ -77,7 +77,7 @@ margin-top: 150px;
     
    background-color: #E7EDF3;
     width: 100%;
-    padding-top: 80px;
+    padding-top: 20px;
     float: left;
     margin: 0 auto;
     
@@ -88,8 +88,8 @@ margin-top: 150px;
     
   text-align: center;
     margin: 0 auto;
-    width: 500px;
- 
+    width: 900px;
+ padding: 100px;
     
     
 }
@@ -97,16 +97,66 @@ margin-top: 150px;
     
     font-size: 20px;
     font-weight: 600;
-    
+
     
 }
 
 .paragraph p{
-    
-    color: #000;
+     
+    color: #928987;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 20px;
-    padding: 10px;
+    padding: 20px;
+    width: 800px;
+}
+
+.center{
+    
+   background-color:white;
+    width: 100%;
+    padding-top: 80px;
+    float: left;
+    margin: 0 auto;
+    
     
 }
+
+.row{
+    
+    width:100%;
+  margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.coulam{
+    
+    flex-basis: 20%;
+    margin-bottom: 2%;
+    padding: 20px 20 px;
+    box-sizing: border-box;
+    
+    
+}
+.coulam h2{
+    
+   font-size: 15px;
+    font-weight: 600;
+padding: 15px;
+      
+}
+
+.coulam p{
+    
+    color: #928987;
+    padding: 10px;
+    font-size: 12px;
+}
+
+. fa-clock{
+    font-size: 50px;
+}
+
+
