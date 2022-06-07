@@ -115,7 +115,7 @@ margin-top: 150px;
     
    background-color:white;
     width: 100%;
-    padding-top: 80px;
+    padding-top: 10px;
     float: left;
     margin: 0 auto;
     
@@ -181,6 +181,76 @@ padding: 15px;
    
 }
 
+.picture{
+    
+    background-color: #E7EDF3;
+    width: 100%;
+    padding-top: 20px;
+  margin:  auto;
+    text-align: center;
+}
+
+
+.row-1{
+    
+    width:100%;
+  margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+.coulam-1{
+    
+  flex-basis:500%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  
+    overflow: hidden;
+    
+  
+    
+}
+
+.coulam-1 img{
+    width:80%;
+}
+
+
+.row-2{
+    
+    width:100%;
+  margin-top:2%;
+    display: flex;
+    justify-content: space-between;
+    
+ 
+    
+    
+}
+
+
+.layer{
+  height: 100%;
+    width: 100%;
+    position:relative;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    background: transparent;
+    
+    
+}
+
+.layer:hover{
+   background: rgba(226,0,0,0.7); 
+    
+}
 
 
 
