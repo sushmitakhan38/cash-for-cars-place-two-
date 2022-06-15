@@ -323,7 +323,30 @@ input#send{
     border-radius: 3px;
     background-color: #3D3D47;
      margin-left: 240px;
-    
+    margin-bottom: 50px;
     
 }
+.footer {
+  
+ padding:8px;
+  background-color:#E7EDF3;
+  
+}
+
+.icons{
+    
+    color: deepskyblue;
+     font-size: 30px;
+    padding-right: 80px;
+     margin-left: 700px;
+    width:50%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+
 
